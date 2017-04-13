@@ -4,7 +4,9 @@
   "description": "React-app kit for a small project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "bundle": "webpack -d",
+    "server": "nodemon --exec babel-node server.js"
   },
   "author": "Alex Andreyev",
   "license": "ISC",
