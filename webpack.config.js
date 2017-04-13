@@ -32,6 +32,10 @@ module.exports = {
       {
         test:/\.(jpe?g|png|gif|svg)$/i,
         use: 'file-loader'
+      },
+      {
+        test:/\.(jpe?g|png|gif|svg)$/i,
+        use: 'url-loader'
       }
     ]
   },
